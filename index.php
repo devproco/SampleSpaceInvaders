@@ -14,8 +14,9 @@ $UFO_factory = new UFOSelector;
 
 $grunt_ship = $UFO_factory->initShip("UFO");
 var_dump($grunt_ship);
+echo "\n";
 var_dump($grunt_ship->outputStatusText());
-
+echo "\n\n";
 
 $rocket_factory = new RocketSelector;
 
